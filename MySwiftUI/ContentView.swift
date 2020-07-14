@@ -25,3 +25,5 @@ struct ContentView_Previews: PreviewProvider {
 
     }
 }
+
+// ini footer
