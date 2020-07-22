@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424330424C7D8A5005013BF /* MySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424330324C7D8A5005013BF /* MySwiftUIUITests.swift */; };
 		0432521924738D1D00372F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432521824738D1D00372F3D /* AppDelegate.swift */; };
 		0432521B24738D1D00372F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432521A24738D1D00372F3D /* SceneDelegate.swift */; };
 		0432521D24738D1D00372F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432521C24738D1D00372F3D /* ContentView.swift */; };
@@ -15,7 +16,22 @@
 		0432522524738D1F00372F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432522324738D1F00372F3D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0424330624C7D8A5005013BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0432520D24738D1D00372F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0432521424738D1D00372F3D;
+			remoteInfo = MySwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0424330124C7D8A5005013BF /* MySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424330324C7D8A5005013BF /* MySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIUITests.swift; sourceTree = "<group>"; };
+		0424330524C7D8A5005013BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0424330B24C7E302005013BF /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		0424330C24C7E392005013BF /* UITesting.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITesting.xctestplan; sourceTree = "<group>"; };
 		0432521524738D1D00372F3D /* MySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432521824738D1D00372F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0432521A24738D1D00372F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		042432FE24C7D8A5005013BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0432521224738D1D00372F3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0424330224C7D8A5005013BF /* MySwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0424330324C7D8A5005013BF /* MySwiftUIUITests.swift */,
+				0424330C24C7E392005013BF /* UITesting.xctestplan */,
+				0424330B24C7E302005013BF /* TestPlan.xctestplan */,
+				0424330524C7D8A5005013BF /* Info.plist */,
+			);
+			path = MySwiftUIUITests;
+			sourceTree = "<group>";
+		};
 		0432520C24738D1D00372F3D = {
 			isa = PBXGroup;
 			children = (
 				0432521724738D1D00372F3D /* MySwiftUI */,
+				0424330224C7D8A5005013BF /* MySwiftUIUITests */,
 				0432521624738D1D00372F3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				0432521524738D1D00372F3D /* MySwiftUI.app */,
+				0424330124C7D8A5005013BF /* MySwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +114,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0424330024C7D8A5005013BF /* MySwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424330A24C7D8A5005013BF /* Build configuration list for PBXNativeTarget "MySwiftUIUITests" */;
+			buildPhases = (
+				042432FD24C7D8A5005013BF /* Sources */,
+				042432FE24C7D8A5005013BF /* Frameworks */,
+				042432FF24C7D8A5005013BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0424330724C7D8A5005013BF /* PBXTargetDependency */,
+			);
+			name = MySwiftUIUITests;
+			productName = MySwiftUIUITests;
+			productReference = 0424330124C7D8A5005013BF /* MySwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		0432521424738D1D00372F3D /* MySwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0432522924738D1F00372F3D /* Build configuration list for PBXNativeTarget "MySwiftUI" */;
@@ -105,6 +159,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Dicoding Indonesia";
 				TargetAttributes = {
+					0424330024C7D8A5005013BF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 0432521424738D1D00372F3D;
+					};
 					0432521424738D1D00372F3D = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -124,11 +182,19 @@
 			projectRoot = "";
 			targets = (
 				0432521424738D1D00372F3D /* MySwiftUI */,
+				0424330024C7D8A5005013BF /* MySwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		042432FF24C7D8A5005013BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0432521324738D1D00372F3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +208,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		042432FD24C7D8A5005013BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424330424C7D8A5005013BF /* MySwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0432521124738D1D00372F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +227,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0424330724C7D8A5005013BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0432521424738D1D00372F3D /* MySwiftUI */;
+			targetProxy = 0424330624C7D8A5005013BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0432522324738D1F00372F3D /* LaunchScreen.storyboard */ = {
@@ -166,6 +248,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0424330824C7D8A5005013BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G73BH94RR;
+				INFOPLIST_FILE = MySwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikrihelmi.MySwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySwiftUI;
+			};
+			name = Debug;
+		};
+		0424330924C7D8A5005013BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G73BH94RR;
+				INFOPLIST_FILE = MySwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikrihelmi.MySwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySwiftUI;
+			};
+			name = Release;
+		};
 		0432522724738D1F00372F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,6 +443,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0424330A24C7D8A5005013BF /* Build configuration list for PBXNativeTarget "MySwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424330824C7D8A5005013BF /* Debug */,
+				0424330924C7D8A5005013BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0432521024738D1D00372F3D /* Build configuration list for PBXProject "MySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

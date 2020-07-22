@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "5549D253-EFB9-4402-A0D6-7D3A98A336CD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MySwiftUI.xcodeproj",
+      "identifier" : "0432521424738D1D00372F3D",
+      "name" : "MySwiftUI"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MySwiftUI.xcodeproj",
+        "identifier" : "0424330024C7D8A5005013BF",
+        "name" : "MySwiftUIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

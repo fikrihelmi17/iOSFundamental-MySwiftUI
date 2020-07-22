@@ -9,12 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+        @State var showingAlert = false
     
        var body: some View {
-          Circle()
-          .size(width: 200, height: 200)
-          .fill(Color.pink)
+        Button(action: {self.showingAlert = true}) {
+            Text("Halo")
+                .font(.title)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+                .padding(.all)
+            .frame(width: nil)
+            
+        }
+        .alert(isPresented: $showingAlert) {
+            Alert(title: Text("Apa kabar?"), dismissButton: .default(Text("OK")))
+        }
        }
 }
 
@@ -25,10 +34,4 @@ struct ContentView_Previews: PreviewProvider {
 
     }
 }
-
-// ini header
-
-// ini footer
-
-
 

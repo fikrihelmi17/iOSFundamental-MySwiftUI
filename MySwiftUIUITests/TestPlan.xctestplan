@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "A87DD736-41B7-44E0-B6B4-76B726B16EBC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MySwiftUI.xcodeproj",
+        "identifier" : "0424330024C7D8A5005013BF",
+        "name" : "MySwiftUIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
